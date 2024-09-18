@@ -1,60 +1,119 @@
-.hero {
-    background-color: #f8f9fa;
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-.hero img {
-    object-fit: cover;
-    height: 400px;
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.navbar {
-    background-color: white;
-    border-bottom: 1px solid #ddd;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.content h2, .content h3 {
-    font-weight: bold;
+.col-md-3, .col-md-6, .col-auto {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.content p {
-    color: #666;
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
-footer {
-    background-color: #1a1a1a;
-    color: white;
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
-.latest-blogs h3 {
-    font-weight: bold;
-    margin-bottom: 20px;
+.col-auto {
+    flex: 0 0 auto;
+    max-width: none;
 }
 
-.card {
-    border: none;
+.text-center {
+    text-align: center;
 }
 
-.card-text {
+.justify-content-center {
+    justify-content: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1E3D79; /* Footer background color */
+    padding: 50px 0;
+    color: #fff; /* Text color */
+}
+
+.footer .footer-logo {
+    text-align: center; /* Center logo container */
+}
+
+.footer .footer-logo img {
+    height: 50px; /* Logo height */
+    margin-bottom: 20px; /* Space between logo and other elements */
+    display: block; /* Block-level element to center */
+    margin-left: auto; /* Auto margins for centering */
+    margin-right: auto; /* Auto margins for centering */
+}
+
+.footer p {
     font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px; /* Space between paragraphs */
 }
 
-.accordion-button {
-    background-color: #f8f9fa;
-    color: #8b0a0a;
+.footer .row.text-center p {
+    margin-bottom: 0.5rem;
 }
 
-.accordion-button:focus {
-    box-shadow: none;
+.footer .bi {
+    font-size: 24px; /* Icon size */
 }
 
-.accordion-body {
-    color: #666;
+.footer .col-auto a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
-.footer a {
-    color: #aaa;
+.footer .col-auto a:hover {
+    color: #ccc; /* Change icon color on hover */
 }
 
-.footer a:hover {
-    color: white;
+.footer .row.justify-content-center p {
+    color: #e0e5ed; /* Slightly lighter text color */
+    font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center; /* Center columns on smaller screens */
+    }
 }
