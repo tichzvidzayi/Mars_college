@@ -72,6 +72,26 @@ body {
     }
 }
 
+/* Remove the default Bootstrap arrow icon */
+.accordion-button::after {
+    content: none; /* Removes Bootstrap's default icon */
+}
+
+/* Add the custom plus (+) sign when collapsed */
+.accordion-button.collapsed::before {
+    content: '+'; /* Plus sign */
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000; /* Adjust color as needed */
+}
+
+/* Add the custom minus (-) sign when expanded */
+.accordion-button:not(.collapsed)::before {
+    content: '-'; /* Minus sign */
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000; /* Adjust color as needed */
+}
 
 
 /* Responsive Styles */
