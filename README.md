@@ -1,6 +1,6 @@
 # ipsum_campus
 
-# Careers and Study Opportunities Page
+## Careers and Study Opportunities Page
 
 This project contains an HTML page titled **Careers and Study Opportunities**, which showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing.
 
@@ -8,7 +8,7 @@ This project contains an HTML page titled **Careers and Study Opportunities**, w
 
 The project is built using HTML, Bootstrap, and custom CSS. The assets (images) are linked locally, and Bootstrap is loaded from a CDN.
 
-### Key Features:
+### Key Features
 - **Responsive Navigation Bar:**
   - Includes a logo, navigation links, and a button aligned on the right.
   - Collapsible on smaller screens.
@@ -36,33 +36,29 @@ The project is built using HTML, Bootstrap, and custom CSS. The assets (images) 
 
 ## Installation and Usage
 
-### Prerequisites:
+### Prerequisites
 Ensure you have an internet connection to load Bootstrap via the CDN.
-### SEO Notes
 
+### SEO Notes
 Added the following meta tags for SEO considerations:
 
 ```html
 <meta name="description" content="Careers and study opportunities to advance your skills.">
 <meta name="keywords" content="careers, study, education, opportunities">
 
-### Setup Instructions:
-1. Clone the project to your local machine.
-2. Place your images in the `../public/images` folder as referenced in the HTML.
-3. Ensure your custom styles are placed in the `styles.css` file, linked to the HTML page.
-4. Open the `.html` file in any web browser to view the page.
 
-```bash
+
 # Clone the repository
 git clone https://github.com/tichzvidzayi/ipsum_campus.git
 
 # Navigate to the directory
-cd careers-opportunities-page
+cd ipsum_campus
 
 # Open the HTML file in your preferred browser
 open index.html
 
- .
+
+.
 ├── index.html              # The main HTML file for the Careers and Study Opportunities page
 ├── styles.css              # Custom styles (if any) linked to the HTML page
 └── public/
