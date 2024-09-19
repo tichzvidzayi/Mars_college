@@ -46,7 +46,7 @@ Added the following meta tags for SEO considerations:
 <meta name="description" content="Careers and study opportunities to advance your skills.">
 <meta name="keywords" content="careers, study, education, opportunities">
 
-
+```
 
 # Clone the repository
 git clone https://github.com/tichzvidzayi/ipsum_campus.git
@@ -58,7 +58,7 @@ cd ipsum_campus
 open index.html
 
 
-.
+
 ├── index.html              # The main HTML file for the Careers and Study Opportunities page
 ├── styles.css              # Custom styles (if any) linked to the HTML page
 └── public/
@@ -69,3 +69,4 @@ open index.html
         ├── waterfall.svg   # Image for the first blog card
         ├── plane.svg       # Image for the second blog card
         └── camera.svg      # Image for the third blog card
+        
