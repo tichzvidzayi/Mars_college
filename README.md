@@ -38,10 +38,17 @@ The project is built using HTML, Bootstrap, and custom CSS. The assets (images) 
 
 ### Prerequisites:
 Ensure you have an internet connection to load Bootstrap via the CDN.
+### SEO Notes
+
+Added the following meta tags for SEO considerations:
+
+```html
+<meta name="description" content="Careers and study opportunities to advance your skills.">
+<meta name="keywords" content="careers, study, education, opportunities">
 
 ### Setup Instructions:
-1. Download or clone the project to your local machine.
-2. Place your images in the `public/images` folder as referenced in the HTML.
+1. Clone the project to your local machine.
+2. Place your images in the `../public/images` folder as referenced in the HTML.
 3. Ensure your custom styles are placed in the `styles.css` file, linked to the HTML page.
 4. Open the `.html` file in any web browser to view the page.
 
@@ -54,3 +61,15 @@ cd careers-opportunities-page
 
 # Open the HTML file in your preferred browser
 open index.html
+
+ .
+├── index.html              # The main HTML file for the Careers and Study Opportunities page
+├── styles.css              # Custom styles (if any) linked to the HTML page
+└── public/
+    └── images/
+        ├── logo.svg        # Logo for the navbar
+        ├── Banner.svg      # Hero section banner image
+        ├── mountain.svg    # Image used in the content section
+        ├── waterfall.svg   # Image for the first blog card
+        ├── plane.svg       # Image for the second blog card
+        └── camera.svg      # Image for the third blog card
