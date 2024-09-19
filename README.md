@@ -48,25 +48,15 @@ Added the following meta tags for SEO considerations:
 
 ```
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/tichzvidzayi/ipsum_campus.git
 
-# Navigate to the directory
+### Navigate to the directory
 cd ipsum_campus
 
-# Open the HTML file in your preferred browser
+### Open the HTML file in your preferred browser
 open index.html
 
 
 
-├── index.html              # The main HTML file for the Careers and Study Opportunities page
-├── styles.css              # Custom styles (if any) linked to the HTML page
-└── public/
-    └── images/
-        ├── logo.svg        # Logo for the navbar
-        ├── Banner.svg      # Hero section banner image
-        ├── mountain.svg    # Image used in the content section
-        ├── waterfall.svg   # Image for the first blog card
-        ├── plane.svg       # Image for the second blog card
-        └── camera.svg      # Image for the third blog card
         
