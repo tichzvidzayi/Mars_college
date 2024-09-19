@@ -56,7 +56,3 @@ cd ipsum_campus
 
 ### Open the HTML file in your preferred browser
 open index.html
-
-
-
-        
