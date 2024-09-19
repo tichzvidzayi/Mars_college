@@ -1,3 +1,11 @@
 .custom-padding {
     padding-left: 200px; /* Adjust as needed */
 }
+
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../public/images/minus.svg");
+  }
+  .accordion-button::after {
+    background-image: url("../public/images/plus.svg");
+  }
