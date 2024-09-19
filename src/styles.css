@@ -61,53 +61,18 @@ body {
     padding-bottom: 3rem;
 }
 
-/* Footer Styles */
-.footer {
-    background-color: #1E3D79; /* Footer background color */
-    padding: 50px 0;
-    color: #fff; /* Text color */
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer .footer-logo {
+        margin-bottom: 30px;
+    }
 }
 
-.footer .footer-logo {
-    text-align: center; /* Center logo container */
-}
 
-.footer .footer-logo img {
-    height: 50px; /* Logo height */
-    margin-bottom: 20px; /* Space between logo and other elements */
-    display: block; /* Block-level element to center */
-    margin-left: auto; /* Auto margins for centering */
-    margin-right: auto; /* Auto margins for centering */
-}
-
-.footer p {
-    font-size: 14px;
-    color: #fff;
-    margin-bottom: 10px; /* Space between paragraphs */
-}
-
-.footer .row.text-center p {
-    margin-bottom: 0.5rem;
-}
-
-.footer .bi {
-    font-size: 24px; /* Icon size */
-}
-
-.footer .col-auto a {
-    color: #fff;
-    margin: 0 10px;
-    transition: color 0.3s ease; /* Smooth hover effect */
-}
-
-.footer .col-auto a:hover {
-    color: #ccc; /* Change icon color on hover */
-}
-
-.footer .row.justify-content-center p {
-    color: #e0e5ed; /* Slightly lighter text color */
-    font-size: 12px;
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
