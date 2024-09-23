@@ -1,5 +1,4 @@
-# ipsum_campus
-
+# Mars College
 ## Careers and Study Opportunities Page
 
 This project contains an HTML page titled **Careers and Study Opportunities**, which showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing.
