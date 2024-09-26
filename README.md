@@ -1,7 +1,7 @@
 # Mars College
 ## Careers and Study Opportunities Page
 
-This project contains an HTML page titled **Careers and Study Opportunities**, which showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing.
+This project showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, a hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing.
 
 ## Project Structure
 
@@ -36,13 +36,13 @@ The project is built using HTML, Bootstrap, and custom CSS. The assets (images) 
 ## Installation and Usage
 
 ### Prerequisites
-Ensure you have an internet connection to load Bootstrap via the CDN.
+Please make sure you have an internet connection to load Bootstrap via the CDN.
 
 ### SEO Notes
 Added the following meta tags for SEO considerations:
 
 ```html
-<meta name="description" content="Careers and study opportunities to advance your skills.">
+<meta name="description" content=" Careers and study opportunities to advance your skills.">
 <meta name="keywords" content="careers, study, education, opportunities">
 
 ```
