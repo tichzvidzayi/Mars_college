@@ -51,7 +51,7 @@ Added the following meta tags for SEO considerations:
 git clone https://github.com/tichzvidzayi/ipsum_campus.git
 
 ### Navigate to the directory
-cd ipsum_campus
+cd mars_college
 
 ### Open the HTML file in your preferred browser
 open index.html
