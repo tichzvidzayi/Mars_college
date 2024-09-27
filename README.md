@@ -1,7 +1,7 @@
 # Mars College
 ## Careers and Study Opportunities Page
 
-This project showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, a hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing.
+This project showcases a simple web layout using Bootstrap for responsive design. The page features a navigation bar, a hero section, content with images and text, an accordion, a blog section, and a footer. The project is designed to be informative, user-friendly, and visually appealing. The project was made as a comparison of using Bootstrap vs TailwindCSS.
 
 ## Project Structure
 
