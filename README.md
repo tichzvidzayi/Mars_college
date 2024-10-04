@@ -52,5 +52,5 @@ git clone https://github.com/tichzvidzayi/ipsum_campus.git
 ### Navigate to the directory
 cd mars_college
 
-### Open the HTML file in your preferred browser
+### Open the HTML file in your preferred web browser
 open index.html
