@@ -35,7 +35,7 @@ The project is built using HTML, Bootstrap, and custom CSS. The assets (images) 
 ## Installation and Usage
 
 ### Prerequisites
-Please ensure you have Internet connectivity to be able to load Bootstrap via the CDN.
+Please ensure you have Internet connectivity to load Bootstrap via the CDN.
 
 ### SEO Notes
 Added the following meta tags for SEO considerations:
